@@ -6,6 +6,8 @@ public class Mahasiswa {
     private String nama, prodi;
     protected int npm;
     
+    
+    
      public void setnama(String nama) {
         this.nama = nama;
     }
@@ -18,6 +20,8 @@ public class Mahasiswa {
         this.npm = npm;
     } 
      
+     
+     
      public String getnama() {
          return nama;
      }
@@ -27,7 +31,6 @@ public class Mahasiswa {
      }
      
      public int getnpm() {
-         System.out.println("superclass");
          return npm;
      }
 }
